@@ -1,0 +1,205 @@
+body {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    flex: 1 1 auto;
+    background-color: #1F2937;
+    color: white; 
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hlogo {
+    display: flex;
+    font-size: 24px;
+    padding-left: 110px;
+}
+
+.hlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 110px;
+}
+
+a:hover {
+    color: gold;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+}
+
+a {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+
+.hcontent {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    gap: 10%;
+}
+
+.htext {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 600px;
+    height: auto;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+.placeholder, img {
+    display: flex;
+    width: 600px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.rinfo {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 100px;
+padding-top: 10px;
+}
+
+.check {
+    display: flex;
+    padding: 20px;
+    padding-bottom: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    
+}
+
+.approach {
+display: flex;
+width: 150px;
+height: auto;
+justify-content: center;
+gap: 50px;
+}
+
+.approach img {
+    width: 200px;
+    height: auto;
+}
+
+.captions {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.captions p {
+    width: 200px;
+    height: auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
+
+}
+
+blockquote {
+    font-size: 24px; 
+    font-style: italic; 
+    color: #1F2937;
+    height: auto;
+    width: 800px;
+}
+
+.grant {
+    display: flex;
+    padding-left: 400px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cta {
+display: flex;
+background-color: white;
+justify-content: center;
+align-items: center;
+padding: 100px;
+}
+
+.ctabox {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #3882F6;
+color: white;
+padding-left: 150px;
+padding-right: 150px;
+padding-top: 50px;
+padding-bottom: 50px;
+gap: 300px;
+border-radius: 25px;
+}
+
+.ctatext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ctatext p {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: -10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+    background-color: #1F2937;
+    padding: 20px;
+}
+
+.footer p {
+    background-color: #1F2937;
+    color: white;
+}
